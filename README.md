@@ -9,7 +9,7 @@ The BreakHis dataset contains 7,936 digitized histopathological images, which ar
 ## 3. Stain Normalization Technique
 Before applying the MagNet model, the images in the dataset are pre - processed using a stain normalization technique. In this study, the Adaptive Color Deconvolution (ACD) technique is employed for stain normalization.
 - **Explanation**: ACD is used to isolate the stain features via a unified adjustment after extracting the individual stain components from each pixel of the breast histopathology image. The process involves transforming the RGB values of the image to Optical Density (OD) values, creating the Stain Color Appearance (SCA) matrix, and calculating the stain densities. These stain densities are then optimized using an objective function and the gradient descent optimization algorithm to achieve effective stain normalization.
-- **Implementation Details**: The code for stain normalization can be found in [stain_normalization.py] (if available in the repository). It contains functions to perform the necessary calculations as described in the paper.
+- **Implementation Details**: The code for stain normalization can be found in [stain_normalization.py]. It contains functions to perform the necessary calculations as described in the paper.
 
 ## 4. Environment Setting
 ### 4.1 Prerequisites
