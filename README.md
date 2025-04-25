@@ -20,7 +20,7 @@ Before applying the MagNet model, the images in the dataset are pre - processed 
     - `torchvision`: For handling image data and pre - trained models.
     - `numpy`: For numerical operations..
     - Other relevant libraries such as `pytorch_grad_cam`, `matplotlib` (for visualization), etc.
-    - 
+  
 ## 5. Repository Structure
 - `MagNet/`:
   - `SDC.py`: Defines the Spatial Dilated Convolution (SDC) block used in the encoder.
@@ -162,4 +162,4 @@ abstract = {The variable magnification levels in histopathology images make it d
 ```
 
 ## 10. Contact
-If you have any questions or issues regarding the code, dataset, or reproduction of the experiments, please contact the corresponding author of the paper [author's email address] or create an issue in the GitHub repository. 
+If you have any questions or issues regarding the code, dataset, or reproduction of the experiments, please contact the corresponding author of the paper saeed.iqbal@ucp.edu.pk or create an issue in the GitHub repository. 
